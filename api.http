@@ -1,0 +1,17 @@
+GET http://localhost:3000/courses/curso/135
+
+###
+POST http://localhost:3000/courses/
+Content-Type: application/json
+
+{
+  "name": "Curso de NestJS",
+  "description": "Descrição do curso de NestJS",
+  "price": 100
+}
+
+###
+PATCH http://localhost:3000/courses/21
+
+###
+DELETE http://localhost:3000/courses/95
